@@ -129,4 +129,6 @@ This script automates the process of upgrading a device running LineageOS 22.1 N
 1. Place the LineageOS update package in the `~/Downloads/mobile_flashing/` directory.
 2. Run the script:
    ```bash
-   [upgrade_lineageos.sh](http://_vscodecontentref_/0)
+   upgrade_lineageos.sh
+   ```
+3. When asked to patch manually open magisk manager app and patch the boot.img, How to get boot.img separately you ask, I got you, visit the `https://download.lineageos.org/devices/miatoll/builds`  grab the latest release's boot.img.
